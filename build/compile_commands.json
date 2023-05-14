@@ -6,7 +6,7 @@
 },
 {
   "directory": "/home/ozzy/cmaketut/lnmake/build/app",
-  "command": "/usr/bin/g++  -I/home/ozzy/cmaketut/lnmake/lib/my_lib/include -g -std=c++17 -o CMakeFiles/Executable.dir/main.cpp.o -c /home/ozzy/cmaketut/lnmake/app/main.cpp",
+  "command": "/usr/bin/g++  -I/home/ozzy/cmaketut/lnmake/lib/my_lib/include -I/home/ozzy/cmaketut/lnmake/external/json/include -g -std=c++17 -o CMakeFiles/Executable.dir/main.cpp.o -c /home/ozzy/cmaketut/lnmake/app/main.cpp",
   "file": "/home/ozzy/cmaketut/lnmake/app/main.cpp"
 }
 ]

@@ -63,16 +63,19 @@ CMAKE_BINARY_DIR = /home/ozzy/cmaketut/lnmake/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: external/json/all
 all: lib/all
 all: app/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: external/json/preinstall
 preinstall: lib/preinstall
 preinstall: app/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: external/json/clean
 clean: lib/clean
 clean: app/clean
 .PHONY : clean
@@ -91,6 +94,21 @@ app/preinstall:
 # Recursive "clean" directory target.
 app/clean: app/CMakeFiles/Executable.dir/clean
 .PHONY : app/clean
+
+#=============================================================================
+# Directory level rules for directory external/json
+
+# Recursive "all" directory target.
+external/json/all:
+.PHONY : external/json/all
+
+# Recursive "preinstall" directory target.
+external/json/preinstall:
+.PHONY : external/json/preinstall
+
+# Recursive "clean" directory target.
+external/json/clean:
+.PHONY : external/json/clean
 
 #=============================================================================
 # Directory level rules for directory lib
