@@ -20,7 +20,6 @@ add_git_submodule(external/json)
 option(COMPILE_EXECUTABLE "Whether to compile the executable" ON)
 
 add_subdirectory(lib)
-
 if(COMPILE_EXECUTABLE)
     message("With executable compiling")
     add_subdirectory(app)
