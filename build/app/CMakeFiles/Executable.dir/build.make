@@ -93,8 +93,8 @@ Executable_EXTERNAL_OBJECTS =
 app/Executable: app/CMakeFiles/Executable.dir/main.cpp.o
 app/Executable: app/CMakeFiles/Executable.dir/build.make
 app/Executable: lib/my_lib/libLibrary.a
-app/Executable: _deps/fmt-build/libfmtd.a
-app/Executable: _deps/spdlog-build/libspdlogd.a
+app/Executable: _deps/fmt-build/libfmt.a
+app/Executable: _deps/spdlog-build/libspdlog.a
 app/Executable: app/CMakeFiles/Executable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ozzy/cmaketut/lnmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Executable"
 	cd /home/ozzy/cmaketut/lnmake/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Executable.dir/link.txt --verbose=$(VERBOSE)

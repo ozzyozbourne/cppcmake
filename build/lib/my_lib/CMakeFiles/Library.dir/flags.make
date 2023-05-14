@@ -6,5 +6,5 @@ CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
 CXX_INCLUDES = -I/home/ozzy/cmaketut/lnmake/lib/my_lib/include -I/home/ozzy/cmaketut/lnmake/build/_deps/cxxopts-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/nlohmann_json-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include
 
-CXX_FLAGS = -g -std=c++17
+CXX_FLAGS = -O3 -DNDEBUG -std=c++17
 

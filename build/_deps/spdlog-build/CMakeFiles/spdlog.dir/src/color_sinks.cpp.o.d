@@ -81,6 +81,7 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/string \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/allocator.h \
@@ -128,13 +129,18 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /usr/include/c++/11/bits/std_mutex.h \
@@ -179,6 +185,8 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: \
  /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include/spdlog/fmt/bundled/core.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \

@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/include
 
-CXX_FLAGS = -g -std=c++17
+CXX_FLAGS = -O3 -DNDEBUG -std=c++17
 

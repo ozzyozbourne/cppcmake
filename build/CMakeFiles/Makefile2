@@ -83,6 +83,7 @@ preinstall: app/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/docs.dir/clean
 clean: _deps/nlohmann_json-build/clean
 clean: _deps/fmt-build/clean
 clean: _deps/spdlog-build/clean
@@ -226,6 +227,32 @@ lib/my_lib/preinstall:
 # Recursive "clean" directory target.
 lib/my_lib/clean: lib/my_lib/CMakeFiles/Library.dir/clean
 .PHONY : lib/my_lib/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/docs.dir
+
+# All Build rule for target.
+CMakeFiles/docs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ozzy/cmaketut/lnmake/build/CMakeFiles --progress-num= "Built target docs"
+.PHONY : CMakeFiles/docs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/docs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozzy/cmaketut/lnmake/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/docs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozzy/cmaketut/lnmake/build/CMakeFiles 0
+.PHONY : CMakeFiles/docs.dir/rule
+
+# Convenience name for target.
+docs: CMakeFiles/docs.dir/rule
+.PHONY : docs
+
+# clean rule for target.
+CMakeFiles/docs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/clean
+.PHONY : CMakeFiles/docs.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/fmt-build/CMakeFiles/fmt.dir

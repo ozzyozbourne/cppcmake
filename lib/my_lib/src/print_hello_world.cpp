@@ -5,6 +5,9 @@
 #include <spdlog/spdlog.h>
 #include "my_lib/print_hello_world.h"
 
+/**
+ *@brief Print out the hello world and test the json library
+ */
 void print_hello_world()
 {
     std::cout << "JSON LIB VERSION\t"

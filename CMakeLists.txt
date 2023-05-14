@@ -12,6 +12,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(LIBRARY_NAME Library)
 set(EXECUTABLE_NAME Executable)
 
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
+include(Docs)
 include(FetchContent)
 
 FetchContent_Declare(

@@ -36,6 +36,8 @@ _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
@@ -46,6 +48,7 @@ _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception.h \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -131,7 +134,10 @@ _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/include/fmt/format.h \
@@ -158,8 +164,10 @@ _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -191,7 +199,7 @@ _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
- /usr/include/c++/11/climits \
+ /usr/include/x86_64-linux-gnu/bits/fcntl2.h /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -218,5 +226,6 @@ _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h

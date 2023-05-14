@@ -1,0 +1,283 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						9
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/nlohmann_json-build",
+					"jsonFile" : "directory-_deps.nlohmann_json-build-Release-928ed0b98e40f126c75a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/nlohmann_json-src"
+				},
+				{
+					"build" : "_deps/fmt-build",
+					"jsonFile" : "directory-_deps.fmt-build-Release-531a1205a7fb4547a17b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "build/_deps/fmt-src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Release-d181af2f4b0016529c30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "build/_deps/spdlog-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/cxxopts-build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-_deps.cxxopts-build-Release-91561198f607c47f9a4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/cxxopts-src"
+				},
+				{
+					"build" : "_deps/cxxopts-build/include",
+					"jsonFile" : "directory-_deps.cxxopts-build.include-Release-82c50445f0f38dd9c938.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "build/_deps/cxxopts-src/include"
+				},
+				{
+					"build" : "_deps/catch2-build",
+					"jsonFile" : "directory-_deps.catch2-build-Release-b1208c190cea666efc56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "build/_deps/catch2-src"
+				},
+				{
+					"build" : "lib",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-lib-Release-c12f15c6f888b43a891c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib"
+				},
+				{
+					"build" : "lib/my_lib",
+					"jsonFile" : "directory-lib.my_lib-Release-29674fe6ae14149ec05c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "lib/my_lib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "app",
+					"jsonFile" : "directory-app-Release-94c5f210ca04b1028ae5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						7,
+						8,
+						9
+					],
+					"name" : "CppProjectTemplate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "cxxopts",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "Executable::@5f5a17c01335469806cb",
+					"jsonFile" : "target-Executable-Release-4df76cac91d9b35da363.json",
+					"name" : "Executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Library::@2ef74ddf37b95b6e6953",
+					"jsonFile" : "target-Library-Release-3a1cd81de727903ceb60.json",
+					"name" : "Library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "docs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-docs-Release-a82b10d9871b241dfb73.json",
+					"name" : "docs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fmt::@976f4f0bee90b99ecdb6",
+					"jsonFile" : "target-fmt-Release-2a9e90d10d75b0b6bea5.json",
+					"name" : "fmt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Release-83a26989928767257d2e.json",
+					"name" : "spdlog",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ozzy/cmaketut/lnmake/build",
+		"source" : "/home/ozzy/cmaketut/lnmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
