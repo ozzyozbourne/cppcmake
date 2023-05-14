@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/Executable.dir/main.cpp.o -o Executable  ../lib/my_lib/libLibrary.a 
+/usr/bin/g++ -g CMakeFiles/Executable.dir/main.cpp.o -o Executable  ../lib/my_lib/libLibrary.a ../_deps/fmt-build/libfmtd.a ../_deps/spdlog-build/libspdlogd.a 

@@ -447,3 +447,81 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd76e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd76e.dir/build.make CMakeFiles/cmTC_bd76e.dir/build
+gmake[1]: Entering directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd76e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_bd76e.dir/CheckIncludeFile.c.o -c /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bd76e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd76e.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_bd76e.dir/CheckIncludeFile.c.o -o cmTC_bd76e 
+gmake[1]: Leaving directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73378/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73378.dir/build.make CMakeFiles/cmTC_73378.dir/build
+gmake[1]: Entering directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73378.dir/src.c.o
+/usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_73378.dir/src.c.o -c /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_73378
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73378.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_73378.dir/src.c.o -o cmTC_73378 
+gmake[1]: Leaving directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test has_std_17_flag succeeded with the following output:
+Change Dir: /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c2df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c2df.dir/build.make CMakeFiles/cmTC_3c2df.dir/build
+gmake[1]: Entering directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c2df.dir/src.cxx.o
+/usr/bin/g++ -Dhas_std_17_flag  -std=c++17 -std=c++17 -o CMakeFiles/cmTC_3c2df.dir/src.cxx.o -c /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3c2df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c2df.dir/link.txt --verbose=1
+/usr/bin/g++ CMakeFiles/cmTC_3c2df.dir/src.cxx.o -o cmTC_3c2df 
+gmake[1]: Leaving directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_1z_flag succeeded with the following output:
+Change Dir: /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98502/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98502.dir/build.make CMakeFiles/cmTC_98502.dir/build
+gmake[1]: Entering directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98502.dir/src.cxx.o
+/usr/bin/g++ -Dhas_std_1z_flag  -std=c++1z -std=c++17 -o CMakeFiles/cmTC_98502.dir/src.cxx.o -c /home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98502
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98502.dir/link.txt --verbose=1
+/usr/bin/g++ CMakeFiles/cmTC_98502.dir/src.cxx.o -o cmTC_98502 
+gmake[1]: Leaving directory '/home/ozzy/cmaketut/lnmake/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

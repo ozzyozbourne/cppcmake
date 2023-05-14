@@ -1,12 +1,57 @@
 [
 {
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/fmt-build",
+  "command": "/usr/bin/g++  -I/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/include -g -std=c++17 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/src/format.cc",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/src/format.cc"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/fmt-build",
+  "command": "/usr/bin/g++  -I/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/include -g -std=c++17 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/src/os.cc",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/src/os.cc"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/spdlog.cpp"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/stdout_sinks.cpp"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/color_sinks.cpp"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/file_sinks.cpp"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/async.cpp"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/cfg.cpp"
+},
+{
+  "directory": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp"
+},
+{
   "directory": "/home/ozzy/cmaketut/lnmake/build/lib/my_lib",
-  "command": "/usr/bin/g++  -I/home/ozzy/cmaketut/lnmake/lib/my_lib/include -g -std=c++17 -o CMakeFiles/Library.dir/src/print_hello_world.cpp.o -c /home/ozzy/cmaketut/lnmake/lib/my_lib/src/print_hello_world.cpp",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/lib/my_lib/include -I/home/ozzy/cmaketut/lnmake/build/_deps/cxxopts-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/nlohmann_json-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/Library.dir/src/print_hello_world.cpp.o -c /home/ozzy/cmaketut/lnmake/lib/my_lib/src/print_hello_world.cpp",
   "file": "/home/ozzy/cmaketut/lnmake/lib/my_lib/src/print_hello_world.cpp"
 },
 {
   "directory": "/home/ozzy/cmaketut/lnmake/build/app",
-  "command": "/usr/bin/g++  -I/home/ozzy/cmaketut/lnmake/lib/my_lib/include -I/home/ozzy/cmaketut/lnmake/external/json/include -g -std=c++17 -o CMakeFiles/Executable.dir/main.cpp.o -c /home/ozzy/cmaketut/lnmake/app/main.cpp",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/ozzy/cmaketut/lnmake/lib/my_lib/include -I/home/ozzy/cmaketut/lnmake/build/_deps/cxxopts-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/nlohmann_json-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/fmt-src/include -I/home/ozzy/cmaketut/lnmake/build/_deps/spdlog-src/include -g -std=c++17 -o CMakeFiles/Executable.dir/main.cpp.o -c /home/ozzy/cmaketut/lnmake/app/main.cpp",
   "file": "/home/ozzy/cmaketut/lnmake/app/main.cpp"
 }
 ]

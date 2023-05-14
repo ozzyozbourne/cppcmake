@@ -1,5 +1,0 @@
-# ninja log v5
-407	501	1684073196485179593	app/Executable	f7fe78736adbdfc1
-0	359	1684073196345186479	lib/my_lib/CMakeFiles/Library.dir/src/print_hello_world.cpp.o	70cc5617122952f9
-1	21	1684073196005203200	app/CMakeFiles/Executable.dir/main.cpp.o	f313435d54118b10
-360	407	1684073196389184315	lib/my_lib/libLibrary.a	e3ce585ce6ad4b4b
