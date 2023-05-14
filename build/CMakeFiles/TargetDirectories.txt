@@ -1,0 +1,10 @@
+/home/ozzy/cmaketut/lnmake/build/CMakeFiles/edit_cache.dir
+/home/ozzy/cmaketut/lnmake/build/CMakeFiles/rebuild_cache.dir
+/home/ozzy/cmaketut/lnmake/build/lib/CMakeFiles/edit_cache.dir
+/home/ozzy/cmaketut/lnmake/build/lib/CMakeFiles/rebuild_cache.dir
+/home/ozzy/cmaketut/lnmake/build/lib/my_lib/CMakeFiles/Library.dir
+/home/ozzy/cmaketut/lnmake/build/lib/my_lib/CMakeFiles/edit_cache.dir
+/home/ozzy/cmaketut/lnmake/build/lib/my_lib/CMakeFiles/rebuild_cache.dir
+/home/ozzy/cmaketut/lnmake/build/app/CMakeFiles/Executable.dir
+/home/ozzy/cmaketut/lnmake/build/app/CMakeFiles/edit_cache.dir
+/home/ozzy/cmaketut/lnmake/build/app/CMakeFiles/rebuild_cache.dir
